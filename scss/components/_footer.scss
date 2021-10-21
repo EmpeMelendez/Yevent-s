@@ -1,0 +1,44 @@
+
+/* FOOTER */
+
+.footer {
+    background: linear-gradient(#743686,#c6baca );
+
+    & h4 {
+        text-align: center;
+        color: cornsilk;
+        font-size: 1.5rem;
+    }
+}
+
+.footer__social {
+   
+        margin: 50px;
+
+        & p {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: cornsilk;
+        }
+    
+}
+
+
+.footer__social--links {
+    @extend .footer__social;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        & a {
+            margin: 0 30px;
+
+            & i {
+                font-size: 3rem;
+                color:cornsilk;
+            }
+        }
+        
+    
+}

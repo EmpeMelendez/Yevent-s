@@ -1,0 +1,20 @@
+.historia, 
+.mision,
+.vision {
+    background: #cfadd8;
+    margin: 10px;
+    line-height: 1.5rem;
+    color: #964e96;
+
+
+    & h3 {
+        font-size: 1.5rem;
+        padding: .9rem;
+    }
+
+    & p {
+        font-family: 'Dosis', sans-serif;
+        padding: .9rem;
+        text-align: justify;
+    }
+}

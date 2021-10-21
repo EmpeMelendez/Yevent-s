@@ -1,0 +1,19 @@
+.card-body  {
+    background-color: #dbc4db;
+
+    & a {
+        background: #964e96;
+    }
+
+    & h5 {
+        font-size: 2rem;
+        color: #964e96;
+    }
+
+    & p {
+        font-family: 'Dosis', sans-serif;
+        text-align: justify;
+        padding-top: .9rem;
+        font-size: 1.2rem;
+    }
+}
