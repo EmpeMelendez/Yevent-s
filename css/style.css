@@ -73,7 +73,7 @@ ul li:hover ul {
 }
 
 ul li:hover a {
-  color: whitesmoke;
+  color: #a07b9e;
 }
 
 ul li:hover ul > li {
@@ -89,15 +89,10 @@ ul li:hover ul > li {
 
 .btn {
   cursor: pointer;
-  display: inline-block;
-  border: 0;
-  font-weight: bold;
-  padding: 10px 20px;
-  background: #999999;
   color: black;
   font-size: 15px;
   border: 1px solid white;
-  margin: 10px 0;
+  margin: 10px 60px;
   font-family: "Dancing Script";
 }
 
@@ -108,7 +103,6 @@ ul li:hover ul > li {
 .carousel-item h2,
 .carousel-item p {
   margin-bottom: 10px;
-  background-color: #999999;
 }
 
 /*SECTION 1*/
@@ -150,15 +144,13 @@ ul li:hover ul > li {
 }
 
 .noticias a {
-  padding: 10px 0;
-  text-transform: uppercase;
+  padding: 1.5rem;
   display: inline-block;
-  font-weight: bold;
   text-decoration: none;
 }
 
 .noticias a:hover {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   text-decoration: none;
 }
 
@@ -182,6 +174,7 @@ ul li:hover ul > li {
 
 .seccion2 h3 {
   color: grey;
+  font-family: "Dosis", sans-serif;
   line-height: 20px;
   text-align: center;
   padding-bottom: 15px;
@@ -284,6 +277,7 @@ ul li:hover ul > li {
 .vision {
   background: #cfadd8;
   margin: 10px;
+  margin-top: 1.5rem;
   line-height: 1.5rem;
   color: #964e96;
 }
@@ -291,7 +285,7 @@ ul li:hover ul > li {
 .mision h3,
 .vision h3 {
   font-size: 1.5rem;
-  padding: 0.9rem;
+  padding: 0.9rem 0.9rem 0;
 }
 .historia p,
 .mision p,
@@ -299,6 +293,11 @@ ul li:hover ul > li {
   font-family: "Dosis", sans-serif;
   padding: 0.9rem;
   text-align: justify;
+  margin: 0 9rem;
+}
+
+.card-img-top {
+  height: 500px;
 }
 
 .card-body {
@@ -408,6 +407,23 @@ ul li:hover ul > li {
 
 .form input[type=submit]:active {
   background: linear-gradient(to bottom, #825b94, #5c0e63);
+}
+
+/*GALERIA*/
+#carouselExampleDark {
+  margin: 0px 100px;
+}
+#carouselExampleDark h5 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #963ba8;
+}
+#carouselExampleDark p {
+  font-size: 1.5rem;
+}
+
+.carousel-item img {
+  height: 35rem;
 }
 
 /*# sourceMappingURL=style.css.map */

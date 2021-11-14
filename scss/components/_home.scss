@@ -42,7 +42,7 @@
 
 
   }
-  
+ 
   .menu-btn {
     position: absolute;
     cursor: pointer;
@@ -72,7 +72,7 @@
   }
 
   ul li:hover a {
-    color: whitesmoke;
+    color: rgb(160, 123, 158);
     
   }
   
@@ -92,15 +92,10 @@
   
   .btn {
     cursor: pointer;
-    display: inline-block;
-    border: 0;
-    font-weight: bold;
-    padding: 10px 20px;
-    background: #999999;
     color: black;
     font-size: 15px;
     border: 1px solid white;
-    margin: 10px 0;
+    margin: 10px 60px;
     font-family: "Dancing Script";
   }
   
@@ -111,7 +106,6 @@
   .carousel-item h2,
   .carousel-item p {
     margin-bottom: 10px;
-    background-color: #999999;
   }
   
   /*SECTION 1*/
@@ -152,16 +146,15 @@
   }
   
   .noticias a {
-    padding: 10px 0;
-    text-transform: uppercase;
+    padding: 1.5rem ;
     display: inline-block;
-    font-weight: bold;
     text-decoration: none;
   }
   
   .noticias a:hover {
-    font-size: 1.2rem;
+    font-size: .9rem;
     text-decoration: none;
+    
   }
   
   .noticias a:hover {
@@ -184,6 +177,7 @@
   
   .seccion2 h3 {
     color: grey;
+    font-family: "Dosis", sans-serif;
     line-height: 20px;
     text-align: center;
     padding-bottom: 15px;
